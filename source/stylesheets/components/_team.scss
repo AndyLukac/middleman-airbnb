@@ -1,0 +1,21 @@
+.img-circle {
+  width: 200px;
+}
+
+#team {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(0deg, #fff 50%, #F4F4F4 50%);
+}
+
+.github-links .fa {
+  color: rgba(0,0,0,0.25);
+}
+#team a {
+    color: rgba(0,0,0,0.25);
+    font-weight: bold;
+    letter-spacing: -0.5px;
+    font-size: 15px;
+}

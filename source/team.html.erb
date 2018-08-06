@@ -1,8 +1,13 @@
-<ul class="list-inline text-center">
-  <% ["JenniCookie", "AndyLukac"].each do |gh_username| %>
-    <li>
-      <%= image_tag "https://kitt.lewagon.com/placeholder/users/#{gh_username}", class: "img-circle" %>
-      <h3><%= gh_username.capitalize %></h3>
-    </li>
-  <% end %>
-</ul>
+<div id="team">
+  <ul class="list-inline text-center">
+    <% ["JenniCookie", "AndyLukac"].each do |gh_username| %>
+      <li>
+        <%= image_tag "https://kitt.lewagon.com/placeholder/users/#{gh_username}", class: "img-circle" %>
+        <h3><%= gh_username.capitalize %></h3>
+        <p class="github-links">
+          <%= link_to "  #{gh_username}", "https://github.com/#{gh_username}", class: "fa fa-github" %>
+        </p>
+      </li>
+    <% end %>
+  </ul>
+</div>
